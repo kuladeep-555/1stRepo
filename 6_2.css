@@ -1,0 +1,28 @@
+.block1 {
+    display:block;
+    /* background-color: yellow; */
+    padding: 40px;
+    width: 100px; 
+    height: 50px; 
+    margin: 10px
+
+}
+
+.inline2{
+     display:inline;
+    /* text-align:center; */
+    padding: 40px;
+    width: 100px; 
+    height: 50px; 
+    margin: 10px
+
+}
+
+.inlineblock3   {
+     display: inline-block;
+    /* text-align:center; */
+    padding: 40px;
+    width: 100px; 
+    height: 50px; 
+    margin: 10px
+}

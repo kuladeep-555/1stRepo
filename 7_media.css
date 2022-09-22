@@ -1,0 +1,59 @@
+.Mobile {
+    display: block;
+    background-color: aliceblue;
+    font-size: 20px;
+}
+.Tab{
+    display: none;
+}
+.laptop{
+    display: none;
+}
+.Tv{
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .Mobile {
+        display: none;
+    }
+
+    .Tab {
+        display: block;
+        background-color: aquamarine;
+        font-size: 40px;
+    }
+}
+
+@media(min-width:1024px)
+{
+    .Mobile{
+        display: none
+    }
+    .Tab{
+        display: none
+    }
+    .laptop{
+        display: block;
+        background-color: lavender;
+        font-size: 40px;
+    }
+
+}
+
+@media(min-width:1280px){
+    .Mobile{
+        display: none
+    }
+    .Tab{
+        display: none
+    }
+    .laptop{
+        display: none
+    }
+    .Tv{
+        display: block;
+        background-color:blueviolet;
+        font-size: 100px;
+    }
+}

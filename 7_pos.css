@@ -1,0 +1,63 @@
+div.static{
+    position: static;
+    left: 80px;
+    right: 80px ;
+    top: 80px;
+    bottom:80px ;
+    border: 3px solid blue;
+}
+
+div.relativ{
+    position: relative;
+    /* left: 50%; */
+    left: 80px;
+    /* top: 100p; */
+    /* right: 80px ;
+    top: 80px;
+    bottom:80px ; */
+    border: 3px solid blue;
+}
+
+div.fixed{
+    position: fixed;
+    width: 500px;
+    right: 0px;
+    /* height: 300px; */
+    border: 3px solid blue;
+}
+
+
+div.realtive1{
+    position: relative;
+    /* left: 50%; */
+    /* left: 80px; */
+    /* top: 100p; */
+    /* right: 80px ;
+    top: 80px;
+    bottom:80px ; */
+    width: 400px;
+    height: 100px;
+    border: 3px solid blue;
+}
+div.absolute{
+    position:absolute;
+    /* left: 50%; */
+    /* left: 80px; */
+    /* top: 100p; */
+    /* right: 80px ;
+    top: 80px;
+    bottom:80px ; */
+    width: 100px;
+    height: 70px;
+    right: 0px;
+    border: 3px solid rgb(1, 1, 10);
+
+}
+
+div.sticky{
+    position:sticky;
+    top:0;
+    background:pink;
+    border: 3px solid rgb(1, 1, 10);
+
+}

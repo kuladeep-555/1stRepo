@@ -1,0 +1,31 @@
+.but{
+    background-color:red ;
+    color: black;
+}
+
+.but:hover{
+    
+    background-color: aqua;
+    color: black;
+}
+
+.but:active{
+    background-color:purple;
+    color: black;
+}
+
+
+.but:focus{
+    background-color:greenyellow ;
+    color: black;
+}
+
+p::before{
+    content: " My name is :";
+    color: red;
+}
+
+.sub::after{
+    content: " Vankadara";
+    color: red;
+}

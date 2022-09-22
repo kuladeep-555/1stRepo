@@ -1,0 +1,17 @@
+.ordered {background-color: yellow}
+
+#div {background-color: blue}
+
+p {background-color: coral}
+
+p[name=2] {background-color: cyan}
+
+video{
+    border-radius: 5%;
+}
+iframe{
+    border-radius: 5%;
+}
+img{
+    border-radius: 50%;
+}
