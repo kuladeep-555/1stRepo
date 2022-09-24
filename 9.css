@@ -1,0 +1,49 @@
+.btn{
+    position: relative;
+    left: 45%; 
+    background-color: black;
+    color: wheat;
+    height: 100px;
+    width: 100px;
+    transition-duration: ;
+    transition-property: ;
+
+}
+.btn:hover{
+    background-color: aquamarine;
+    color: white;
+}
+
+.btn:focus{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    transition-duration:5s ;
+    transition-property:background-color,height,width;
+    color: white;
+}
+
+
+.parent{
+    height: 500px;
+    width: 500px;
+    background-color: beige;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    /* border-radius: 50%; */
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.child:hover{
+    background-color: blueviolet;
+}
+.child:focus{
+    height: 200px;
+    width: 200px;
+    background-color:blue;
+    border-radius: 50%;
+    transform: translate(100%);
+
+}
